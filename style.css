@@ -1,0 +1,126 @@
+/* ================================
+   Main App
+================================ */
+
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #f8f9ff 0%,
+        #eef2ff 100%
+    );
+}
+
+
+/* ================================
+   Main Container
+================================ */
+
+.block-container {
+    max-width: 900px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+
+/* ================================
+   Title
+================================ */
+
+h1 {
+    text-align: center;
+    font-size: 42px !important;
+    font-weight: 800 !important;
+    margin-bottom: 5px !important;
+}
+
+
+/* ================================
+   Subtitle
+================================ */
+
+[data-testid="stCaptionContainer"] {
+    text-align: center;
+}
+
+
+/* ================================
+   Buttons
+================================ */
+
+.stButton > button {
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+
+/* ================================
+   Metrics
+================================ */
+
+[data-testid="stMetric"] {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+
+/* ================================
+   Uploaded Image
+================================ */
+
+[data-testid="stImage"] img {
+    border-radius: 15px;
+}
+
+
+/* ================================
+   Success Result
+================================ */
+
+[data-testid="stAlert"] {
+    border-radius: 10px;
+}
+
+
+/* ================================
+   File Uploader
+================================ */
+
+[data-testid="stFileUploader"] {
+    background: rgba(255, 255, 255, 0.65);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+
+/* ================================
+   Progress Bars
+================================ */
+
+.stProgress {
+    margin-bottom: 8px;
+}
+
+
+/* ================================
+   Divider
+================================ */
+
+hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* ================================
+   Footer
+================================ */
+
+footer {
+    visibility: hidden;
+}
